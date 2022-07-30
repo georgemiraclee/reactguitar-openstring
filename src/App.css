@@ -1,0 +1,40 @@
+body {
+  background: black;
+}
+
+/* Codepen Pen Status */
+.pen-status {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  font-family: 'JetBrains Mono';
+  color: white;
+}
+
+.Guitar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.Guitar-bridgehole {
+  stroke: white;
+}
+.Guitar-bridgehole-middle {
+  fill: gray;
+}
+.Guitar-soundhole {
+  fill: white;
+  stroke: #333;
+  stroke-width: 5;
+}
+.Guitar-string {
+  stroke: gray;
+  stroke-width: 5;
+  cursor: pointer;
+}
+.Guitar-string:hover {
+  stroke: lightgray;
+}
